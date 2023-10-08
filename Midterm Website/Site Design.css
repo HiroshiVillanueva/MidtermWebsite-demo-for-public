@@ -1,0 +1,84 @@
+/* Background look of the site */
+body {
+    background-image: url(Dark\ Mode.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+/* The navigation bar on the LEFT side and its properties */
+.NavbarLeft {
+    background-color: #000000;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    height: 101.2%;
+    width: 11.5%;
+    margin-top: -0.6%;
+    margin-left: 0%;
+    border-right: solid 1px #c4c4c4;
+    overflow: hidden;
+}
+
+/* The navigation bar on the TOP side and its properties */
+.NavbarTop {
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    height: 7%;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 10.9%;
+    border-bottom: solid 1px rgb(196, 196, 196);
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(to bottom, rgb(5, 82, 71), rgba(0, 0, 0, 0));
+}
+
+/* To set the anchor/ references for all the percentage values in the StyleSheets */
+html, body {height: 100%;}
+
+/* Properties of the IMAGE/LOGO on the left side navigation bar */
+.PageLogo {
+    height: 15%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+}
+
+/* Refers to the properties of the main content of the site */
+.Main { 
+    margin-top: 7%;
+    margin-left: 11.5%;
+    width: auto;
+    height: 100%;
+}
+
+/* Mofidies the properties of the Dropdown Catalyst */
+.Dropdown {
+    position: relative;
+    display: inline-block;
+    left: 22%;
+    right: 0%;
+    bottom: 0;
+}
+
+/* Properties of the Dropdwn Content */
+.DropdownContent {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 30%;
+    bottom: 100%;
+    left: -30%;
+    z-index: 5;
+    padding: 10% 22% 0% 22%;
+}
+
+/* What happens when Dropdown Catalyst is hovered upon */
+.Dropdown:hover .DropdownContent {
+    display: block;
+}
