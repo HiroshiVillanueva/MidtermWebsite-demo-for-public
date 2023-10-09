@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap'); /* Gabarito Font */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Gabarito&display=swap'); /* Belanosima */
+
+body{
+    background-color: black;
+    overflow-y: scroll;
+}
+
+.DarkMode{
+    background-image: url(Dark\ Mode.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+* {
+    margin:         0;
+    padding:        0;
+    box-sizing: border-box;
+    list-style:           none;
+    text-decoration:      none;
+    font-family: 'Gabarito', sans-serif;
+    transition: all 0.3s ease 0s;
+}
+
+.Main{
+    padding-left: 1%;
+    width: auto;
+    height: 1000px;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+}

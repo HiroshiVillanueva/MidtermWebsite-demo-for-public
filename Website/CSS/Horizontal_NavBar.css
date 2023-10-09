@@ -1,0 +1,30 @@
+header {
+    position: fixed;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+    margin-left: 10%;
+    background-image: linear-gradient(to bottom, rgba(6, 85, 63, 0.87), rgba(6, 85, 63, 0.403), rgba(6, 85, 63, 0.293), rgba(6, 85, 63, 0.112), rgba(0, 0, 0, 0));
+
+}
+
+.Horizontal_Wrapper div ul li a{
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+    text-shadow: 1px 1px 5px black;
+}
+
+.Text_Properties{
+    list-style: none;
+}
+
+.Text_Properties li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.Horizontal_Wrapper div ul li a:hover{
+    color: white;
+}
