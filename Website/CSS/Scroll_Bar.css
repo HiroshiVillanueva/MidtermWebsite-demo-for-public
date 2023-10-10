@@ -11,7 +11,7 @@
 
 /* Properties of the Draggable Scrolling Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(70, 209, 186);
+    background: rgb(65, 145, 132);
     border-radius: 8px;
 }
 
