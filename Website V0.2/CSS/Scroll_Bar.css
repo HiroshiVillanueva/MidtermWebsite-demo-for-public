@@ -1,0 +1,29 @@
+/* Size of the Overall Scroll bar */
+::-webkit-scrollbar {
+    width: 5px;
+    transition: width 2s;
+}
+
+/* Properties of the Scrollbar */
+::-webkit-scrollbar-track {
+    background: rgb(27, 45, 45);
+}
+
+/* Properties of the Draggable Scrolling Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(65, 145, 132);
+    border-radius: 8px;
+}
+
+/* Properties of the Scroll Thumb on Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(24, 172, 147);
+}
+
+::-webkit-scrollbar-track:hover {
+    background: rgb(77, 113, 113);
+}
+
+::-webkit-scrollbar:hover {
+    width: 8px;
+}
