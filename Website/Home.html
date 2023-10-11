@@ -12,7 +12,22 @@
         <link rel="stylesheet" href="CSS/Horizontal_Navbar.css">
         <link rel="stylesheet" href="CSS/Page_Layout.css">
         <link rel="stylesheet" href="CSS/Scroll_Bar.css">
-        <link rel="stylesheet" href="CSS/Main.css">
+        <link rel="stylesheet" href="CSS/Home.css">
+
+        <style>
+            #HTML{
+                margin-left: 3%;
+            }
+            #C{
+                margin-left: -18.1%;
+            }
+            #JAVA{
+                margin-left: -39.3%;
+            }
+            #Python{
+                margin-left: -60.5%;
+            }
+        </style>
     </head>
 
     <body class="DarkMode">
@@ -55,7 +70,7 @@
 
 <!-- Horizontal Navivgation Bar = Top Half -->
         <header class="Horizontal_Wrapper">
-            <img class="Logo" src="Images/AV Consult.png" alt="Logo">
+            <a class="alvilla" href="Home.html"> ALVILLA SOLUTIONS </a>
             <div>
                 <ul class="Text_Properties">
                     <li><a href="Book.html">BOOK NOW</a></li>
@@ -67,32 +82,36 @@
 
         <div class="Main"> <!-- Should Contain the Contents of the Page -->
             <div class="Introduction">
+                <div class="IntroAdd">
+                </div>
                 <h1> A WEBSITE FOR ALL YOUR<br>CODING NEEDS </h1>
                 <p>  Our dedicated team of experienced consultants is<br>
                      commited to helping you reach new heights, solve<br>
                      complex problems, and unlock your full potential</p>
+                <video class="video" loop autoplay muted>
+                    <source src="Videos/Stock.mp4" type="video/mp4">
+                </video>
             </div>
-            <hr style="margin-top: 8%; width: 90%; position: relative; left: 3.2%;">
+
+            <hr style="margin-top: 8%; width: 90%; position: relative; left: 3.2%; opacity: 50%;">
             <h1 class="Coverage"> <img class="img" src="Images/gear.png"> Coverage of Services </h1>
 
-
-            <ul>
-                <li> 
-                    <div class="Dropdown_CoverMain">
-                        <img class="Dropdown_Coverage" src="Images/html.png" alt="HTML" style="width: 100px; height: auto;">
-                        <div class="Dropdown_HTML">
-                            <a>Lorem Ipsum</a>
-                            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<br>
-                               Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<br>
-                               Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<br>
-                               Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                            </p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-
-
+            <div>
+                <ul>
+                    <li>
+                        <img id="" src="" alt="HTML">
+                    </li>
+                    <li>
+                        <img id="" src="" alt="PYTHON">
+                    </li>
+                    <li>    
+                        <img id="" src="" alt="C++">
+                    </li>
+                    <li>
+                        <img id="" src="" alt="JAVA SCRIPT">
+                    </li>
+                </ul>
+            </div>
 
         </div>
     </body>
