@@ -26,8 +26,10 @@ body{
 .Main{
     padding-left: 2%;
     width: auto;
-    height: 1000px;
+    height: auto;
     margin-left: 10%;
     margin-top: 10%;
-    color: white;
+    color: white
+
 }
+

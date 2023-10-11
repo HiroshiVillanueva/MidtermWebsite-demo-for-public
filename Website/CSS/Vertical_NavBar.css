@@ -143,6 +143,6 @@ nav ul p{
     color: black;
 }
 
-.Dropdown:hover .Dropdown_Content a:hover {
+.Dropdown_Content a:hover {
     color: rgb(255, 255, 255);
 }
