@@ -6,8 +6,10 @@ header {
     align-items: center;
     padding: 0 1%;
     margin-left: 10%;
-    background-image: linear-gradient(to bottom, rgb(6, 85, 63), rgba(6, 85, 63, 0.27));
+    background-color: transparent;
+    backdrop-filter: blur(10px);
     border-bottom: solid 1px rgba(255, 255, 255, 0.542);
+    z-index: 5;
 }
 
 .Horizontal_Wrapper div ul li a{
@@ -42,3 +44,10 @@ div ul li a::after{
     background-color: white;
     transition: width 0.3s;
 }   
+
+.alvilla{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}

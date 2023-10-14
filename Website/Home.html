@@ -12,7 +12,26 @@
         <link rel="stylesheet" href="CSS/Horizontal_Navbar.css">
         <link rel="stylesheet" href="CSS/Page_Layout.css">
         <link rel="stylesheet" href="CSS/Scroll_Bar.css">
-        <link rel="stylesheet" href="CSS/Main.css">
+        <link rel="stylesheet" href="CSS/Home.css">
+
+        <style>
+            #HTML{
+                margin-left: 3%;
+                transition: width ease 0.8s;
+            }
+            #C{
+                margin-left: -18.1%;
+                transition: width ease 0.8s;
+            }
+            #JAVA{
+                margin-left: -39.3%;
+                transition: width ease 0.8s;
+            }
+            #Python{
+                margin-left: -60.5%;
+                transition: width ease 0.8s;
+            }
+        </style>
     </head>
 
     <body class="DarkMode">
@@ -28,15 +47,15 @@
 
                 <hr style="width:75%; margin-left:12.5% !important; margin-right:12.5% !important; margin-top: 15%;"/>
 
-                <h2> RECOMMENDED COURSES </h2>
+                <h2> RECOMMENDED CONSULTANTS </h2>
                 <nav>
                     <ul class="Recommend_Tab">
-                        <a href="#"> INTRODUCTION TO C++    </a>
-                        <p> Joshua Briones </p>
-                        <a href="#"> INTRODUCTION TO PYTHON </a>
-                        <p> Carlos Macalolot </p>
-                        <a href="#"> INTRODUCTION TO HTML   </a>    
-                        <p> Ghen Benedict </p>               
+                        <a href="Ghen Profile.html"> GHEN BENEDICT   </a>
+                        <p> C++ Specialist </p>
+                        <a href="Carlos Profile.html"> Carlos Macalolot </a>
+                        <p> Python Specialist </p>
+                        <a href="Baxter Profile.html"> Baxter Bracamonte   </a>    
+                        <p> HTML Specialist </p>               
                     </ul>
                 </nav>
 
@@ -55,7 +74,7 @@
 
 <!-- Horizontal Navivgation Bar = Top Half -->
         <header class="Horizontal_Wrapper">
-            <img class="Logo" src="Images/AV Consult.png" alt="Logo">
+            <a class="alvilla" href="Home.html"> ALVILLA SOLUTIONS </a>
             <div>
                 <ul class="Text_Properties">
                     <li><a href="Book.html">BOOK NOW</a></li>
@@ -67,32 +86,128 @@
 
         <div class="Main"> <!-- Should Contain the Contents of the Page -->
             <div class="Introduction">
+                <div class="IntroAdd"> 
+                    <pre> 
+                    <h1> Our History </h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, provident alias 
+                    iure incidunt temporibus quaerat iste neque accusamus dignissimos asperiores repellat. 
+                    Minima voluptatum rerum in illo exercitationem aliquam sint qui.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, provident alias 
+                    iure incidunt temporibus quaerat iste neque accusamus dignissimos asperiores repellat. 
+                    Minima voluptatum rerum in illo exercitationem aliquam sint qui.
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, provident alias 
+                    iure incidunt temporibus quaerat iste neque accusamus dignissimos asperiores repellat. 
+                    Minima voluptatum rerum in illo exercitationem aliquam sint qui.
+                    
+                    </pre> 
+                </div>
                 <h1> A WEBSITE FOR ALL YOUR<br>CODING NEEDS </h1>
                 <p>  Our dedicated team of experienced consultants is<br>
                      commited to helping you reach new heights, solve<br>
                      complex problems, and unlock your full potential</p>
+                <video class="video" loop autoplay muted>
+                    <source src="Videos/Stock.mp4" type="video/mp4">
+                </video>
             </div>
-            <hr style="margin-top: 8%; width: 90%; position: relative; left: 3.2%;">
+
+            <hr style="margin-top: 8%; width: 90%; position: relative; left: 3.2%; opacity: 50%;">
             <h1 class="Coverage"> <img class="img" src="Images/gear.png"> Coverage of Services </h1>
 
+            <pre style="text-align: center; margin-left: -10%; margin-top: -8%; font-size: 20px;">
+                Our services encompass a wide range of offerings, from web development to content creation, 
+                digital marketing, and beyond. We provide comprehensive solutions to meet your online needs, 
+                whether it's building a website from scratch, optimizing your digital presence, or creating 
+                engaging content. Your success in the digital realm is our top priority.
+            </pre>
 
-            <ul>
-                <li> 
-                    <div class="Dropdown_CoverMain">
-                        <img class="Dropdown_Coverage" src="Images/html.png" alt="HTML" style="width: 100px; height: auto;">
-                        <div class="Dropdown_HTML">
-                            <a>Lorem Ipsum</a>
-                            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<br>
-                               Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<br>
-                               Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<br>
-                               Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                            </p>
+            <div>
+                <ul class="Coverage_List">
+                    <li>
+                        <div class="hh">
+                            <img class="HTML" src="Images/html.png" alt="HTML">  
+                            <pre class="explain1">
+                                <b>HTML</b>, or <i>HyperText Markup Language</i>, is a standardized markup language used to create and 
+                                structure content on the World Wide Web. It consists of a set of tags and elements that define
+                                 the various parts of a web page, such as headings, paragraphs, links, images, and more. HTML 
+                                 is the fundamental building block of web pages, and it provides the structure and content that 
+                                 web browsers use to render and display information on the internet.
+                            </pre>
                         </div>
-                    </div>
-                </li>
-            </ul>
+                        
+                    </li>
+                    <li>
+                        <div class="pp">
+                            <img class="PYTHON" src="Images/python.png" alt="PYTHON">
+                            <pre class="explain2" style="margin-right: -1.5%; margin-top: 1.2%;">                              
+                                <b>Python</b> is a high-level, versatile programming language known for its simplicity and readability. 
+                                It is widely used for various applications, from web development and data analysis to artificial 
+                                intelligence and automation. Python's extensive libraries and community support make it an ideal 
+                                choice for both beginners and experienced developers.
+                            </pre>
+                        </div>
+                        
+                    </li>
+                    <li>    
+                        <div class="cc">
+                            <img class="C" src="Images/C.png" alt="C++">
+                            <pre class="explain3" style="margin-right: -1.5%; margin-top: 1.2%;">                               
+                                <b>C</b> is a widely-used, versatile programming language that is known for its efficiency and low-level 
+                                capabilities. It provides a high degree of control over a computer's hardware, making it suitable 
+                                for system programming, embedded systems, and developing software that requires direct memory 
+                                management. C is the foundation for many other programming languages and plays a crucial role in 
+                                operating systems and software development.
+                            </pre>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="jj">
+                            <img class="JAVA" src="Images/Java.png" alt="JAVA SCRIPT">
+                            <pre class="explain4" style="margin-right: -3.9%; margin-top: 1.2%;">                               
+                                <b>JavaScript</b> is a versatile, high-level programming language primarily used for web development. 
+                                It enables dynamic and interactive elements on websites, allowing for user interaction, data manipulation, 
+                                and real-time updates. JavaScript runs in web browsers, making it essential for modern web applications 
+                                and enhancing the user experience. It's also employed in server-side development through technologies like 
+                                Node.js. JavaScript is a cornerstone of the web development toolkit.
+                            </pre>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <hr style="position: relative; margin-top: 18%;">
+            <h1 class="Coverage" style="margin-top: 2%;"> WHAT ARE WE? </h1>
+            <div class="benefits">
+                <pre class="vidX" style="text-align: center; margin-top: -7%; font-size:22px">
+                    In a rapidly evolving digital landscape, our website serves as your trusted compass, guiding you through 
+                    the intricate realm of knowledge, services, and opportunities. Whether you're here to explore, learn, 
+                    shop, or connect, you've entered a realm where the past, present, and future of the internet converge.
 
+                    At the heart of our website is a commitment to excellence, user-centric design, and a relentless pursuit 
+                    of providing you with the best experience possible. We understand that the internet is an expansive universe, 
+                    and we're here to simplify your journey, making it more enjoyable, enlightening, and efficient.
 
+                    As you navigate through our pages, you'll discover a treasure trove of information, from educational resources 
+                    and insightful articles to engaging entertainment and practical solutions. Our team of experts and enthusiasts 
+                    has curated a diverse array of content to cater to your every need and interest.
+
+                    Our commitment to you goes beyond the screen. We're dedicated to fostering a community where ideas flourish and 
+                    connections are forged. Join us in this digital adventure, and you'll find not only information but also a home 
+                    for your curiosity and ambitions.
+
+                </pre>
+            </div>
+            <hr style="position: relative; margin-top: 29%;">
+            <h1 class="Coverage" style="margin-bottom: 3%; margin-top: 1%;"> ABOUT US </h1>
+
+            <!--<h3> Who runs the company? </h3>
+            <pre style="text-align: left; margin-left: -30%; margin-top: -8%; font-size: 20px;">
+
+            </pre> 
+
+            <h3> Our Whereabouts </h3>
+
+            <h3> References </h3> -->
 
         </div>
     </body>

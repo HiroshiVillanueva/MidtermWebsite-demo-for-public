@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Gabarito&family=Montserrat&display=swap'); /* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Gabarito&family=Kanit&family=Montserrat&display=swap'); /* Kanit */
+
+.Main .Introduction p{
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    font-family: montserrat;
+    font-size: 20px;
+}
+
+div div h1{
+    padding-top: 2%;
+    padding-left: 4%;
+    font-size: 40px;
+    font-family: kanit;
+}
+
+.Introduction{
+    width: 97%;
+    height: 18%;
+    padding: 0 0 10px 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.562);
+    border: solid 1px rgba(255, 255, 255, 0);
+    overflow: hidden;
+    position: relative;
+}
+
+.IntroAdd{
+    position: absolute;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    height: 100%;
+    width: 0%;
+    left: 0;
+    transition: all ease 0.3s;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.Introduction:hover{
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    border: solid 1px rgba(255, 255, 255, 0.377);
+}
+
+.Introduction:hover .IntroAdd {
+    width: 200%;
+}
+.IntroAdd::-webkit-scrollbar {
+    display: none;
+}
+
+.Coverage{
+    text-align: center;
+    margin-left: -7%;
+    margin-top: 2%;
+    margin-bottom: 9%;
+    font-size: 40px;
+    cursor: default;
+}
+
+
+.video{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    left: 0px;
+}
+
+.Coverage_List li{
+    list-style: none;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 12%;
+    margin-right: 5%;
+    margin-top: 1%;
+    width: auto;
+    height: 64px;
+}
+
+.HTML, .C, .PYTHON, .JAVA{
+    height: auto;
+    height: 64px;
+}   
+
+.explain1, .explain2, .explain3, .explain4{
+    position: absolute;
+    right: 19%;
+    width: auto;
+    height: 0;
+    text-align: center;
+    margin-top: 3%;
+    overflow: hidden;
+    font-size: 20px;
+    transition: all ease 0.3s;
+    transition-delay: ease-out 0.1s;
+    opacity: 0;
+}
+
+.hh:hover .explain1{
+    height: 300px;
+    opacity: 1;
+}
+.hh:hover .HTML{ 
+    transform: scale(0.9);
+}
+
+.pp:hover .explain2{
+    height: 300px;
+    opacity: 1;
+}
+.pp:hover .PYTHON{ 
+    transform: scale(0.9);
+}
+
+.cc:hover .explain3{
+    height: 300px;
+    opacity: 1;
+}
+.cc:hover .C{ 
+    transform: scale(0.9);
+}
+
+.jj:hover .explain4{
+    height: 300px;
+    opacity: 1;
+}
+.jj:hover .JAVA{ 
+    transform: scale(0.9);
+}
+
+
+.benefits{
+    margin-top: 8%;
+    width: auto;
+    height: auto;
+}
+
+.GalWrap{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+
+
+.gallery{
+    color: white;
+}
+
+.v1, .v2, .v3{
+    width: auto;
+    height: 200px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.gallery:hover .v1{
+    border: solid 1px rgba(255, 255, 255, 0.436);
+    box-shadow: 0px 0px 10px black;
+}
+
+.gallery:hover .v2{
+    border: solid 1px rgba(255, 255, 255, 0.436);
+    box-shadow: 0px 0px 10px black;
+}
+
+.gallery:hover .v3{
+    border: solid 1px rgba(255, 255, 255, 0.436);
+    box-shadow: 0px 0px 10px black;
+}
+
+.T1, .T2, .T3{
+    position: absolute;
+    text-align: center;
+    margin-top: 13%;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.gallery:hover .T1{
+    color: white;
+}
+
+.gallery:hover .T2{
+    color: white;
+}
+
+.gallery:hover .T3{
+    color: white;
+}
+
+.benefits:hover .vidX{
+    display: none;
+}

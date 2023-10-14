@@ -6,22 +6,21 @@
 
 /* Properties of the Scrollbar */
 ::-webkit-scrollbar-track {
-    background: rgb(27, 45, 45);
+    background: rgba(27, 45, 45, 0);
 }
 
 /* Properties of the Draggable Scrolling Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(65, 145, 132);
-    border-radius: 8px;
+    background: rgb(20, 119, 103);
 }
 
 /* Properties of the Scroll Thumb on Hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(24, 172, 147);
+    background: rgb(36, 239, 205);
 }
 
 ::-webkit-scrollbar-track:hover {
-    background: rgb(77, 113, 113);
+    background: rgba(77, 113, 113, 0);
 }
 
 ::-webkit-scrollbar:hover {
