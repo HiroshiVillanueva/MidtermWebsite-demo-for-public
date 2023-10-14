@@ -52,7 +52,6 @@ div div h1{
 
 .Coverage{
     text-align: center;
-    margin-left: -7%;
     margin-top: 2%;
     margin-bottom: 9%;
     font-size: 40px;
@@ -69,13 +68,10 @@ div div h1{
     left: 0px;
 }
 
-.Coverage_List li{
-    list-style: none;
-    justify-content: center;
-    display: inline-block;
-    margin-left: 12%;
-    margin-right: 5%;
-    margin-top: 1%;
+.Coverage_List{
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
     width: auto;
     height: 64px;
 }
@@ -87,13 +83,13 @@ div div h1{
 
 .explain1, .explain2, .explain3, .explain4{
     position: absolute;
-    right: 19%;
+    right: 18%;
     width: auto;
     height: 0;
     text-align: center;
     margin-top: 3%;
     overflow: hidden;
-    font-size: 20px;
+    font-size: 25px;
     transition: all ease 0.3s;
     transition-delay: ease-out 0.1s;
     opacity: 0;
@@ -144,7 +140,6 @@ div div h1{
     overflow-x: hidden;
 }
 
-
 .gallery{
     color: white;
 }
@@ -188,8 +183,4 @@ div div h1{
 
 .gallery:hover .T3{
     color: white;
-}
-
-.benefits:hover .vidX{
-    display: none;
 }
